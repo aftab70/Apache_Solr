@@ -142,7 +142,7 @@
 #SOLR_AUTH_TYPE="basic"
 #SOLR_AUTHENTICATION_OPTS="-Dbasicauth=solr:SolrRocks"
 SOLR_AUTH_TYPE="basic"
-SOLR_AUTHENTICATION_OPTS="-Dbasicauth=admin:123456"
+SOLR_AUTHENTICATION_OPTS="-Dbasicauth=admin:PASSWORD"
 
 # Settings for ZK ACL
 #SOLR_ZK_CREDS_AND_ACLS="-DzkACLProvider=org.apache.solr.common.cloud.VMParamsAllAndReadonlyDigestZkACLProvider \
